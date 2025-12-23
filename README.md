@@ -1,15 +1,16 @@
 # GitFig Community
 
-Welcome to the GitFig community! This is the place for feature requests, feedback, and discussions about [GitFig](https://gitfig.com) — the Figma plugin that syncs design tokens with GitHub.
+Welcome to the GitFig community! This is the place for feature requests, bug reports, and discussions about [GitFig](https://gitfig.com) — the Figma plugin that syncs design tokens with GitHub.
 
 ## Discussions
 
 Head over to the [Discussions](https://github.com/ds1/gitfig-community/discussions) tab to:
 
-- **Request a feature** — Share ideas for new capabilities
-- **Ask a question** — Get help with using GitFig
-- **Share feedback** — Let us know what's working and what isn't
-- **Show & tell** — Share how you're using GitFig in your workflow
+- **[Feature Requests](https://github.com/ds1/gitfig-community/discussions/categories/feature-requests)** — Share ideas for new features and improvements
+- **[Bug Reports](https://github.com/ds1/gitfig-community/discussions/categories/bug-reports)** — Report issues and bugs
+- **[Q&A](https://github.com/ds1/gitfig-community/discussions/categories/q-a)** — Ask questions and get help
+- **[General](https://github.com/ds1/gitfig-community/discussions/categories/general)** — General discussions about GitFig
+- **[Show and Tell](https://github.com/ds1/gitfig-community/discussions/categories/show-and-tell)** — Share how you're using GitFig in your workflow
 
 ## Resources
 
