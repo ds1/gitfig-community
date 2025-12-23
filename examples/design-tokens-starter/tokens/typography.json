@@ -1,0 +1,95 @@
+{
+  "fontFamily": {
+    "sans": {
+      "$value": "Inter",
+      "$type": "string",
+      "$description": "Primary sans-serif font"
+    },
+    "mono": {
+      "$value": "JetBrains Mono",
+      "$type": "string",
+      "$description": "Monospace font for code"
+    }
+  },
+  "fontSize": {
+    "xs": {
+      "$value": 12,
+      "$type": "number",
+      "$description": "Extra small text (12px)"
+    },
+    "sm": {
+      "$value": 14,
+      "$type": "number",
+      "$description": "Small text (14px)"
+    },
+    "base": {
+      "$value": 16,
+      "$type": "number",
+      "$description": "Base text size (16px)"
+    },
+    "lg": {
+      "$value": 18,
+      "$type": "number",
+      "$description": "Large text (18px)"
+    },
+    "xl": {
+      "$value": 20,
+      "$type": "number",
+      "$description": "Extra large text (20px)"
+    },
+    "2xl": {
+      "$value": 24,
+      "$type": "number",
+      "$description": "2x large text (24px)"
+    },
+    "3xl": {
+      "$value": 30,
+      "$type": "number",
+      "$description": "3x large text (30px)"
+    },
+    "4xl": {
+      "$value": 36,
+      "$type": "number",
+      "$description": "4x large text (36px)"
+    }
+  },
+  "fontWeight": {
+    "normal": {
+      "$value": "400",
+      "$type": "string",
+      "$description": "Normal weight"
+    },
+    "medium": {
+      "$value": "500",
+      "$type": "string",
+      "$description": "Medium weight"
+    },
+    "semibold": {
+      "$value": "600",
+      "$type": "string",
+      "$description": "Semibold weight"
+    },
+    "bold": {
+      "$value": "700",
+      "$type": "string",
+      "$description": "Bold weight"
+    }
+  },
+  "lineHeight": {
+    "tight": {
+      "$value": 1.25,
+      "$type": "number",
+      "$description": "Tight line height for headings"
+    },
+    "normal": {
+      "$value": 1.5,
+      "$type": "number",
+      "$description": "Normal line height for body text"
+    },
+    "relaxed": {
+      "$value": 1.75,
+      "$type": "number",
+      "$description": "Relaxed line height for readability"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "primary": {
+      "$value": "#0066FF",
+      "$type": "color",
+      "$description": "Brand A primary - Blue"
+    },
+    "secondary": {
+      "$value": "#004ACC",
+      "$type": "color",
+      "$description": "Brand A secondary - Darker blue"
+    },
+    "accent": {
+      "$value": "#66B3FF",
+      "$type": "color",
+      "$description": "Brand A accent - Light blue"
+    }
+  },
+  "background": {
+    "default": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "surface": {
+      "$value": "#F0F7FF",
+      "$type": "color",
+      "$description": "Light blue tinted surface"
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "#0A1628",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#4A5568",
+      "$type": "color"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": 8,
+      "$type": "number",
+      "$description": "Rounded corners - Brand A style"
+    },
+    "md": {
+      "$value": 12,
+      "$type": "number"
+    },
+    "lg": {
+      "$value": 16,
+      "$type": "number"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "0 1px 3px rgba(0,102,255,0.1)",
+      "$type": "string",
+      "$description": "Blue-tinted shadow"
+    },
+    "md": {
+      "$value": "0 4px 6px rgba(0,102,255,0.15)",
+      "$type": "string"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "brand": {
+    "primary": {
+      "$value": "#0066FF",
+      "$type": "color",
+      "$description": "Primary brand color for CTAs and links"
+    },
+    "secondary": {
+      "$value": "#6B7280",
+      "$type": "color",
+      "$description": "Secondary color for less prominent elements"
+    },
+    "accent": {
+      "$value": "#F59E0B",
+      "$type": "color",
+      "$description": "Accent color for highlights and notifications"
+    }
+  },
+  "background": {
+    "default": {
+      "$value": "#FFFFFF",
+      "$type": "color",
+      "$description": "Default page background"
+    },
+    "surface": {
+      "$value": "#F9FAFB",
+      "$type": "color",
+      "$description": "Elevated surface background (cards, modals)"
+    },
+    "muted": {
+      "$value": "#F3F4F6",
+      "$type": "color",
+      "$description": "Muted background for subtle sections"
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "#111827",
+      "$type": "color",
+      "$description": "Primary text color"
+    },
+    "secondary": {
+      "$value": "#6B7280",
+      "$type": "color",
+      "$description": "Secondary/muted text"
+    },
+    "inverse": {
+      "$value": "#FFFFFF",
+      "$type": "color",
+      "$description": "Text on dark backgrounds"
+    }
+  },
+  "border": {
+    "default": {
+      "$value": "#E5E7EB",
+      "$type": "color",
+      "$description": "Default border color"
+    },
+    "strong": {
+      "$value": "#D1D5DB",
+      "$type": "color",
+      "$description": "Stronger border for emphasis"
+    }
+  },
+  "status": {
+    "success": {
+      "$value": "#10B981",
+      "$type": "color",
+      "$description": "Success states"
+    },
+    "warning": {
+      "$value": "#F59E0B",
+      "$type": "color",
+      "$description": "Warning states"
+    },
+    "error": {
+      "$value": "#EF4444",
+      "$type": "color",
+      "$description": "Error states"
+    },
+    "info": {
+      "$value": "#3B82F6",
+      "$type": "color",
+      "$description": "Informational states"
+    }
+  }
+}

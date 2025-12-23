@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "primary": {
+      "$value": "#00AA55",
+      "$type": "color",
+      "$description": "Brand B primary - Green"
+    },
+    "secondary": {
+      "$value": "#008844",
+      "$type": "color",
+      "$description": "Brand B secondary - Darker green"
+    },
+    "accent": {
+      "$value": "#66DD99",
+      "$type": "color",
+      "$description": "Brand B accent - Light green"
+    }
+  },
+  "background": {
+    "default": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "surface": {
+      "$value": "#F0FFF5",
+      "$type": "color",
+      "$description": "Light green tinted surface"
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "#0A2816",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#4A6858",
+      "$type": "color"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": 0,
+      "$type": "number",
+      "$description": "Sharp corners - Brand B style"
+    },
+    "md": {
+      "$value": 0,
+      "$type": "number"
+    },
+    "lg": {
+      "$value": 2,
+      "$type": "number"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "0 1px 2px rgba(0,0,0,0.08)",
+      "$type": "string",
+      "$description": "Minimal shadow for sharp aesthetic"
+    },
+    "md": {
+      "$value": "0 2px 4px rgba(0,0,0,0.1)",
+      "$type": "string"
+    }
+  }
+}

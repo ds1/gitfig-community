@@ -1,0 +1,178 @@
+{
+  "colors": {
+    "brand": {
+      "primary": {
+        "$value": "#0066FF",
+        "$type": "color",
+        "$description": "Primary brand color"
+      },
+      "secondary": {
+        "$value": "#6B7280",
+        "$type": "color",
+        "$description": "Secondary color"
+      }
+    },
+    "background": {
+      "default": {
+        "$value": "#FFFFFF",
+        "$type": "color"
+      },
+      "surface": {
+        "$value": "#F9FAFB",
+        "$type": "color"
+      },
+      "muted": {
+        "$value": "#F3F4F6",
+        "$type": "color"
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "#111827",
+        "$type": "color"
+      },
+      "secondary": {
+        "$value": "#6B7280",
+        "$type": "color"
+      },
+      "inverse": {
+        "$value": "#FFFFFF",
+        "$type": "color"
+      }
+    },
+    "status": {
+      "success": {
+        "$value": "#10B981",
+        "$type": "color"
+      },
+      "warning": {
+        "$value": "#F59E0B",
+        "$type": "color"
+      },
+      "error": {
+        "$value": "#EF4444",
+        "$type": "color"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": {
+        "$value": "Inter",
+        "$type": "string",
+        "$description": "Primary sans-serif font"
+      },
+      "mono": {
+        "$value": "JetBrains Mono",
+        "$type": "string",
+        "$description": "Monospace font for code"
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "$value": 12,
+        "$type": "number"
+      },
+      "sm": {
+        "$value": 14,
+        "$type": "number"
+      },
+      "base": {
+        "$value": 16,
+        "$type": "number"
+      },
+      "lg": {
+        "$value": 18,
+        "$type": "number"
+      },
+      "xl": {
+        "$value": 20,
+        "$type": "number"
+      },
+      "2xl": {
+        "$value": 24,
+        "$type": "number"
+      }
+    },
+    "fontWeight": {
+      "normal": {
+        "$value": "400",
+        "$type": "string"
+      },
+      "medium": {
+        "$value": "500",
+        "$type": "string"
+      },
+      "semibold": {
+        "$value": "600",
+        "$type": "string"
+      },
+      "bold": {
+        "$value": "700",
+        "$type": "string"
+      }
+    },
+    "lineHeight": {
+      "tight": {
+        "$value": 1.25,
+        "$type": "number"
+      },
+      "normal": {
+        "$value": 1.5,
+        "$type": "number"
+      },
+      "relaxed": {
+        "$value": 1.75,
+        "$type": "number"
+      }
+    }
+  },
+  "spacing": {
+    "0": {
+      "$value": 0,
+      "$type": "number"
+    },
+    "xs": {
+      "$value": 4,
+      "$type": "number"
+    },
+    "sm": {
+      "$value": 8,
+      "$type": "number"
+    },
+    "md": {
+      "$value": 16,
+      "$type": "number"
+    },
+    "lg": {
+      "$value": 24,
+      "$type": "number"
+    },
+    "xl": {
+      "$value": 32,
+      "$type": "number"
+    }
+  },
+  "borderRadius": {
+    "none": {
+      "$value": 0,
+      "$type": "number"
+    },
+    "sm": {
+      "$value": 4,
+      "$type": "number"
+    },
+    "md": {
+      "$value": 8,
+      "$type": "number"
+    },
+    "lg": {
+      "$value": 12,
+      "$type": "number"
+    },
+    "full": {
+      "$value": 9999,
+      "$type": "number"
+    }
+  }
+}

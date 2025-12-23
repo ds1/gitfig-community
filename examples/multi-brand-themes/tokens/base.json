@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "primary": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Primary brand color - customize per theme"
+    },
+    "secondary": {
+      "$value": "#666666",
+      "$type": "color",
+      "$description": "Secondary brand color"
+    },
+    "accent": {
+      "$value": "#888888",
+      "$type": "color",
+      "$description": "Accent color"
+    }
+  },
+  "background": {
+    "default": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "surface": {
+      "$value": "#F5F5F5",
+      "$type": "color"
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "#111111",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#666666",
+      "$type": "color"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": 4,
+      "$type": "number",
+      "$description": "Small radius - customize per theme"
+    },
+    "md": {
+      "$value": 8,
+      "$type": "number"
+    },
+    "lg": {
+      "$value": 12,
+      "$type": "number"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "0 1px 2px rgba(0,0,0,0.1)",
+      "$type": "string",
+      "$description": "Small shadow - customize per theme"
+    },
+    "md": {
+      "$value": "0 4px 6px rgba(0,0,0,0.1)",
+      "$type": "string"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "primary": {
+      "$value": "#8B5CF6",
+      "$type": "color",
+      "$description": "Brand C primary - Purple"
+    },
+    "secondary": {
+      "$value": "#6D28D9",
+      "$type": "color",
+      "$description": "Brand C secondary - Darker purple"
+    },
+    "accent": {
+      "$value": "#C4B5FD",
+      "$type": "color",
+      "$description": "Brand C accent - Light purple"
+    }
+  },
+  "background": {
+    "default": {
+      "$value": "#FFFFFF",
+      "$type": "color"
+    },
+    "surface": {
+      "$value": "#FAF5FF",
+      "$type": "color",
+      "$description": "Light purple tinted surface"
+    }
+  },
+  "text": {
+    "primary": {
+      "$value": "#1A0A28",
+      "$type": "color"
+    },
+    "secondary": {
+      "$value": "#5A4A68",
+      "$type": "color"
+    }
+  },
+  "radius": {
+    "sm": {
+      "$value": 6,
+      "$type": "number",
+      "$description": "Medium rounded - Brand C style"
+    },
+    "md": {
+      "$value": 10,
+      "$type": "number"
+    },
+    "lg": {
+      "$value": 14,
+      "$type": "number"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "0 2px 8px rgba(139,92,246,0.15)",
+      "$type": "string",
+      "$description": "Soft purple shadow - Brand C signature"
+    },
+    "md": {
+      "$value": "0 8px 24px rgba(139,92,246,0.2)",
+      "$type": "string",
+      "$description": "Large soft shadow for elevated elements"
+    }
+  }
+}

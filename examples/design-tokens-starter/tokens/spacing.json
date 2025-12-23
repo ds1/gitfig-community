@@ -1,0 +1,76 @@
+{
+  "spacing": {
+    "0": {
+      "$value": 0,
+      "$type": "number",
+      "$description": "No spacing"
+    },
+    "xs": {
+      "$value": 4,
+      "$type": "number",
+      "$description": "Extra small spacing (4px)"
+    },
+    "sm": {
+      "$value": 8,
+      "$type": "number",
+      "$description": "Small spacing (8px)"
+    },
+    "md": {
+      "$value": 16,
+      "$type": "number",
+      "$description": "Medium spacing (16px)"
+    },
+    "lg": {
+      "$value": 24,
+      "$type": "number",
+      "$description": "Large spacing (24px)"
+    },
+    "xl": {
+      "$value": 32,
+      "$type": "number",
+      "$description": "Extra large spacing (32px)"
+    },
+    "2xl": {
+      "$value": 48,
+      "$type": "number",
+      "$description": "2x extra large spacing (48px)"
+    },
+    "3xl": {
+      "$value": 64,
+      "$type": "number",
+      "$description": "3x extra large spacing (64px)"
+    }
+  },
+  "radius": {
+    "none": {
+      "$value": 0,
+      "$type": "number",
+      "$description": "No border radius"
+    },
+    "sm": {
+      "$value": 4,
+      "$type": "number",
+      "$description": "Small border radius"
+    },
+    "md": {
+      "$value": 8,
+      "$type": "number",
+      "$description": "Medium border radius"
+    },
+    "lg": {
+      "$value": 12,
+      "$type": "number",
+      "$description": "Large border radius"
+    },
+    "xl": {
+      "$value": 16,
+      "$type": "number",
+      "$description": "Extra large border radius"
+    },
+    "full": {
+      "$value": 9999,
+      "$type": "number",
+      "$description": "Fully rounded (pill shape)"
+    }
+  }
+}
