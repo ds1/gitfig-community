@@ -18,11 +18,4 @@ Head over to the [Discussions](https://github.com/ds1/gitfig-community/discussio
 - **Documentation:** [docs.gitfig.com](https://docs.gitfig.com)
 - **Figma Community:** [GitFig Plugin](https://www.figma.com/community/plugin/1584467274034932618)
 
-## About GitFig
-
-GitFig enables bi-directional sync between Figma and GitHub:
-
-- **Design Sync Mode** — Sync design tokens (colors, spacing, typography) between JSON files in GitHub and Figma Variables
-- **Make Bridge Mode** — Sync Figma Make's auto-created repos to your own target repositories
-
 Version your design system with Git workflows: branches, pull requests, and full history.
