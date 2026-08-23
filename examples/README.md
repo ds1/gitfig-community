@@ -17,10 +17,16 @@ Or fork this repo and use it directly with GitFig!
 
 **For tutorial:** [Design Tokens Workflow](https://docs.gitfig.com/tutorials/design-tokens-workflow)
 
-A complete starter template with organized token files:
+A complete starter template with an expanded base set of token files:
 - `tokens/colors.json` - Brand colors, backgrounds, text colors
+- `tokens/palette.json` - Primitive color scales (50-900) + alpha overlays
 - `tokens/spacing.json` - Spacing scale (xs to xl)
 - `tokens/typography.json` - Font families, sizes, weights
+- `tokens/radius.json` - Corner radius scale
+- `tokens/borders.json` - Border widths + opacity steps
+- `tokens/elevation.json` - Z-index scale + shadow recipes
+- `tokens/motion.json` - Durations + easing curves
+- `tokens/breakpoints.json` - Breakpoints + boolean token examples
 
 ### 📁 [multi-brand-themes](./multi-brand-themes/)
 

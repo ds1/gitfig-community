@@ -1,0 +1,18 @@
+{
+  "breakpoint": {
+    "sm": { "$value": 640, "$type": "number", "$description": "Small tablets and up" },
+    "md": { "$value": 768, "$type": "number", "$description": "Tablets and up" },
+    "lg": { "$value": 1024, "$type": "number", "$description": "Laptops and up" },
+    "xl": { "$value": 1280, "$type": "number", "$description": "Desktops and up" },
+    "2xl": { "$value": 1536, "$type": "number", "$description": "Wide desktops" }
+  },
+  "container": {
+    "gutter-mobile": { "$value": 16, "$type": "number" },
+    "gutter-desktop": { "$value": 32, "$type": "number" },
+    "max-width": { "$value": 1200, "$type": "number", "$description": "Content max width" }
+  },
+  "feature-flags": {
+    "rounded-buttons": { "$value": true, "$type": "boolean", "$description": "Boolean token example" },
+    "dense-tables": { "$value": false, "$type": "boolean" }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "radius": {
+    "none": { "$value": 0, "$type": "number", "$description": "Square corners" },
+    "xs": { "$value": 2, "$type": "number" },
+    "sm": { "$value": 4, "$type": "number", "$description": "Inputs, small buttons" },
+    "md": { "$value": 8, "$type": "number", "$description": "Cards, buttons" },
+    "lg": { "$value": 12, "$type": "number", "$description": "Modals, large surfaces" },
+    "xl": { "$value": 16, "$type": "number" },
+    "full": { "$value": 9999, "$type": "number", "$description": "Pills and avatars" }
+  }
+}

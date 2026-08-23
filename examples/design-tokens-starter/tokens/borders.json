@@ -1,0 +1,14 @@
+{
+  "border-width": {
+    "none": { "$value": 0, "$type": "number" },
+    "hairline": { "$value": 1, "$type": "number", "$description": "Default borders and dividers" },
+    "thin": { "$value": 2, "$type": "number", "$description": "Focus rings, emphasis" },
+    "thick": { "$value": 4, "$type": "number", "$description": "Selected states, brand accents" }
+  },
+  "opacity": {
+    "disabled": { "$value": 0.4, "$type": "number", "$description": "Disabled controls" },
+    "muted": { "$value": 0.6, "$type": "number", "$description": "Secondary imagery" },
+    "hover": { "$value": 0.8, "$type": "number", "$description": "Hover dimming" },
+    "full": { "$value": 1, "$type": "number" }
+  }
+}

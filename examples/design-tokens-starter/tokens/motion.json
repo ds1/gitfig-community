@@ -1,0 +1,13 @@
+{
+  "duration": {
+    "instant": { "$value": 75, "$type": "number", "$description": "Milliseconds — micro feedback" },
+    "fast": { "$value": 150, "$type": "number", "$description": "Milliseconds — hovers, toggles" },
+    "normal": { "$value": 250, "$type": "number", "$description": "Milliseconds — most transitions" },
+    "slow": { "$value": 400, "$type": "number", "$description": "Milliseconds — large surfaces" }
+  },
+  "easing": {
+    "standard": { "$value": "cubic-bezier(0.2, 0, 0, 1)", "$type": "string" },
+    "enter": { "$value": "cubic-bezier(0, 0, 0.2, 1)", "$type": "string", "$description": "Decelerate into place" },
+    "exit": { "$value": "cubic-bezier(0.4, 0, 1, 1)", "$type": "string", "$description": "Accelerate out" }
+  }
+}

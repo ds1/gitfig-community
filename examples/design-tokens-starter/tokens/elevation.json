@@ -1,0 +1,16 @@
+{
+  "z-index": {
+    "base": { "$value": 0, "$type": "number" },
+    "dropdown": { "$value": 100, "$type": "number" },
+    "sticky": { "$value": 200, "$type": "number" },
+    "overlay": { "$value": 300, "$type": "number", "$description": "Scrims behind modals" },
+    "modal": { "$value": 400, "$type": "number" },
+    "toast": { "$value": 500, "$type": "number" },
+    "tooltip": { "$value": 600, "$type": "number" }
+  },
+  "elevation": {
+    "raised": { "$value": "0 1px 2px rgba(0,0,0,0.08)", "$type": "string", "$description": "CSS shadow recipe: cards" },
+    "floating": { "$value": "0 4px 12px rgba(0,0,0,0.12)", "$type": "string", "$description": "CSS shadow recipe: popovers" },
+    "lifted": { "$value": "0 12px 32px rgba(0,0,0,0.16)", "$type": "string", "$description": "CSS shadow recipe: modals" }
+  }
+}
