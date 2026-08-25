@@ -57,6 +57,7 @@ All tokens use **W3C Design Tokens** format:
 ```
 
 Notes:
+- Each file opens with a `"$comment"` key stating its suggested mapping — GitFig ignores `$`-prefixed keys on import and preserves them on push, so you can annotate your own files the same way
 - **Colors** become Figma color variables (8-digit hex like `#0000001A` carries alpha)
 - **Numbers** become float variables (spacing, radius, z-index, durations)
 - **Strings** become string variables (font names, easing curves, shadow recipes — Figma variables don't support shadow values directly)

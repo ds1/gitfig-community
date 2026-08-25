@@ -12,6 +12,16 @@ Head over to the [Discussions](https://github.com/ds1/gitfig-community/discussio
 - **[General](https://github.com/ds1/gitfig-community/discussions/categories/general)** — General discussions about GitFig
 - **[Show and Tell](https://github.com/ds1/gitfig-community/discussions/categories/show-and-tell)** — Share how you're using GitFig in your workflow
 
+## Examples
+
+The [`examples/`](./examples/) folder has ready-to-use token files for getting started:
+
+- **[design-tokens-starter](./examples/design-tokens-starter/)** — a full base set (colors, palette, spacing, typography, radius, borders, elevation, motion, breakpoints), one file per collection
+- **[multi-brand-themes](./examples/multi-brand-themes/)** — one brand theme per Git branch
+- **[tokens-studio-migration](./examples/tokens-studio-migration/)** — before/after files for migrating from Tokens Studio
+
+Each token file starts with a `"$comment"` key explaining how to map it in GitFig — copy the files into your repo (or fork this one) and Pull.
+
 ## Resources
 
 - **Website:** [gitfig.com](https://gitfig.com)

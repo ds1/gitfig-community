@@ -1,4 +1,5 @@
 {
+  "$comment": "GitFig example — map this file to Variables with Collection Name 'borders' (border widths + opacity steps), then press Pull to create the variables in Figma. Keys starting with $ (like this comment) are ignored on import and preserved on push. Setup guide: https://docs.gitfig.com/design-sync/file-mappings",
   "border-width": {
     "none": { "$value": 0, "$type": "number" },
     "hairline": { "$value": 1, "$type": "number", "$description": "Default borders and dividers" },

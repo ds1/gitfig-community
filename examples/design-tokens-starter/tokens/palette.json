@@ -1,4 +1,5 @@
 {
+  "$comment": "GitFig example — map this file to Variables with Collection Name 'palette' (primitive color scales 50-900 + alpha overlays), then press Pull to create the variables in Figma. Keys starting with $ (like this comment) are ignored on import and preserved on push. Setup guide: https://docs.gitfig.com/design-sync/file-mappings",
   "gray": {
     "50": { "$value": "#F9FAFB", "$type": "color" },
     "100": { "$value": "#F3F4F6", "$type": "color" },

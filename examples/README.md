@@ -5,9 +5,12 @@ Ready-to-use example files to help you get started with GitFig tutorials.
 ## How to Use
 
 1. Copy the example files to your own GitHub repository
-2. Follow the corresponding tutorial in the [GitFig Documentation](https://docs.gitfig.com)
+2. In GitFig's Mapping section, hover a file → **Add Target** → set the Collection Name suggested in the file's `"$comment"` header → Save, then **Pull**
+3. Follow the corresponding tutorial in the [GitFig Documentation](https://docs.gitfig.com)
 
 Or fork this repo and use it directly with GitFig!
+
+> Every token file begins with a `"$comment"` key describing what it contains and how to map it. GitFig ignores `$`-prefixed keys on import and preserves them on push, so the comments survive round-trips — use the same trick to annotate your own token files.
 
 ---
 

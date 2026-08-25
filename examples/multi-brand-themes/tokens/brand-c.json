@@ -1,4 +1,5 @@
 {
+  "$comment": "GitFig example — Brand C theme (purple, soft). In the Multi-Brand Themes tutorial each brand lives on its own Git branch; switch branches in GitFig and Pull to switch themes. Tutorial: https://docs.gitfig.com/tutorials/multi-brand-themes",
   "brand": {
     "primary": {
       "$value": "#8B5CF6",
