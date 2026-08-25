@@ -1,5 +1,4 @@
 {
-  "$comment": "GitFig example — the 'after' file of the Tokens Studio migration tutorial, converted to W3C Design Tokens format. Map to Variables and Pull. Keys starting with $ are ignored on import. Tutorial: https://docs.gitfig.com/tutorials/migrating-from-tokens-studio",
   "colors": {
     "brand": {
       "primary": {

@@ -20,7 +20,7 @@ The [`examples/`](./examples/) folder has ready-to-use token files for getting s
 - **[multi-brand-themes](./examples/multi-brand-themes/)** — one brand theme per Git branch
 - **[tokens-studio-migration](./examples/tokens-studio-migration/)** — before/after files for migrating from Tokens Studio
 
-Each token file starts with a `"$comment"` key explaining how to map it in GitFig — copy the files into your repo (or fork this one) and Pull.
+Each folder's README explains what the files contain and how to map them in GitFig — copy the files into your repo (or fork this one) and Pull.
 
 ## Resources
 

@@ -1,5 +1,4 @@
 {
-  "$comment": "GitFig example — map this file to Variables with Collection Name 'elevation' (z-index scale + shadow recipes as string tokens), then press Pull to create the variables in Figma. Keys starting with $ (like this comment) are ignored on import and preserved on push. Setup guide: https://docs.gitfig.com/design-sync/file-mappings",
   "z-index": {
     "base": { "$value": 0, "$type": "number" },
     "dropdown": { "$value": 100, "$type": "number" },

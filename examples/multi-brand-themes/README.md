@@ -20,6 +20,8 @@ This example shows how to use Git branches to manage multiple brand themes:
 - `tokens/brand-b.json` - Brand B customizations
 - `tokens/brand-c.json` - Brand C customizations
 
+**Suggested mapping:** map the active theme file to **Variables** with Collection Name `theme`, so every branch pulls into the same collection.
+
 ## How to Use
 
 ### Option 1: Single Branch Per Theme

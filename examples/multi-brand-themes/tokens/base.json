@@ -1,5 +1,4 @@
 {
-  "$comment": "GitFig example — neutral base theme for the Multi-Brand Themes tutorial (one brand per Git branch; this file lives on main). Map to Variables. Keys starting with $ are ignored on import. Tutorial: https://docs.gitfig.com/tutorials/multi-brand-themes",
   "brand": {
     "primary": {
       "$value": "#000000",

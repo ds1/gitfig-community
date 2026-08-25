@@ -7,6 +7,8 @@ Example files for the [Migrating from Tokens Studio](https://docs.gitfig.com/tut
 - `tokens.json` - Sample Tokens Studio format file with colors, typography, and spacing
 - `tokens-w3c.json` - The same tokens converted to W3C Design Tokens format
 
+**Suggested mapping:** map either file to **Variables** (Collection Name `tokens`) — GitFig auto-detects both formats.
+
 ## Tokens Studio Format
 
 Tokens Studio uses a slightly different format than W3C Design Tokens:

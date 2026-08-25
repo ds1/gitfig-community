@@ -1,5 +1,4 @@
 {
-  "$comment": "GitFig example — map this file to Variables with Collection Name 'radius' (corner radius scale), then press Pull to create the variables in Figma. Keys starting with $ (like this comment) are ignored on import and preserved on push. Setup guide: https://docs.gitfig.com/design-sync/file-mappings",
   "radius": {
     "none": { "$value": 0, "$type": "number", "$description": "Square corners" },
     "xs": { "$value": 2, "$type": "number" },
