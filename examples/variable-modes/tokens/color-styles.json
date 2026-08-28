@@ -1,0 +1,17 @@
+{
+  "Brand-Primary": {
+    "$value": "#3B82F6",
+    "$type": "color",
+    "$description": "Primary brand paint style"
+  },
+  "Brand-Primary-Hover": {
+    "$value": "#1D4ED8",
+    "$type": "color"
+  },
+  "Overlay-Scrim": {
+    "$value": "rgba(17, 24, 39, 0.6)",
+    "$type": "color",
+    "$description": "Modal backdrop",
+    "$extensions": { "com.example.build": { "cssVariable": "--overlay-scrim" } }
+  }
+}

@@ -8,8 +8,10 @@ A two-collection setup showing mode-keyed sync: a single-mode **Primitives** col
 
 ```
 tokens/
-├── primitives.json  # Single-mode collection: map as Variables, "First mode only"
-└── semantic.json    # Mode-keyed (light/dark): map as Variables, "All modes"
+├── primitives.json    # Single-mode collection: map as Variables, "First mode only"
+├── semantic.json      # Mode-keyed (light/dark): map as Variables, "All modes"
+├── color-styles.json  # Paint styles: map as Color Styles
+└── text-styles.json   # Text styles (Inter): map as Text Styles
 ```
 
 ## Suggested mappings
@@ -20,6 +22,8 @@ Pull `primitives.json` first so the alias targets exist when `semantic.json` is 
 |------|--------|-----------------|----------------|
 | `tokens/primitives.json` | Variables | `Primitives` | First mode only |
 | `tokens/semantic.json` | Variables | `Semantic` | All modes |
+| `tokens/color-styles.json` | Color Styles | n/a | n/a |
+| `tokens/text-styles.json` | Text Styles | n/a | n/a |
 
 Requires a Figma plan that allows more than one mode per collection (Professional or higher). On the Starter plan the second mode is skipped and reported.
 
@@ -33,20 +37,13 @@ Requires a Figma plan that allows more than one mode per collection (Professiona
 
 ## Styles alongside modes
 
-Styles have no modes, so they sync as flat files next to the mode-keyed one. Create one paint style and one text style in Figma, then add two more mappings:
-
-| Target | File |
-|--------|------|
-| Color Styles | `tokens/color-styles.json` |
-| Text Styles | `tokens/text-styles.json` |
-
-Push writes them flat (`"Brand-Primary": { "$value": "#3B82F6", "$type": "color" }`) in the same atomic commit as the variables. Pull creates or updates the styles by name; a text style needs its font available in the file, otherwise that entry is skipped with a warning.
+Styles have no modes, so they sync as flat files next to the mode-keyed one. `color-styles.json` and `text-styles.json` are in the exact shape GitFig writes on push (`"Brand-Primary": { "$value": "#3B82F6", "$type": "color" }`; a text style's value carries `fontFamily`, `fontWeight`, `fontSize`, `lineHeight`, `letterSpacing`). Pull creates or updates styles by name; push writes them back in the same atomic commit as the variables. The text styles use Inter, which Figma ships, so they import without installing a font. A text style whose font is not available in the file is skipped with a warning. `$extensions` on a style survives a push the same way it does on a variable.
 
 ## What a correct round-trip looks like
 
 Use this to confirm your setup end to end.
 
-1. Pull `primitives.json` then `semantic.json`. Figma has a **Primitives** collection (12 variables, 1 mode) and a **Semantic** collection with exactly two modes, `light` and `dark`, holding 8 variables each. `Semantic/color/text/primary` shows as an alias to `Primitives/gray/900`, and `Primitives/gray/900` carries the description `Darkest gray, café-grade contrast ✓`.
+1. Pull all four files (`primitives.json` before `semantic.json`). Figma has a **Primitives** collection (12 variables, 1 mode) and a **Semantic** collection with exactly two modes, `light` and `dark`, holding 8 variables each. `Semantic/color/text/primary` shows as an alias to `Primitives/gray/900`, and `Primitives/gray/900` carries the description `Darkest gray, café-grade contrast ✓`. The Styles panel shows three paint styles (`Brand-Primary`, `Brand-Primary-Hover`, `Overlay-Scrim`) and three text styles (`Heading-Large`, `Body`, `Caption`).
 2. Push with no edits. GitFig reports no changes, and `$extensions` is still present in both files on GitHub.
 3. Change one `dark` value in Figma and push. The staging list shows a single change with a `dark` badge; the commit touches only `semantic.json`, only inside `"dark"`.
 4. Delete both collections in Figma and pull again. Both are recreated with their modes, aliases re-bound, and descriptions intact.

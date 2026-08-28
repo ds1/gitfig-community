@@ -36,6 +36,8 @@ A complete starter template with an expanded base set of token files:
 A two-collection setup for mode-keyed sync (free for everyone during the v1.3 preview):
 - `tokens/primitives.json` - Single-mode Primitives collection ("First mode only"), with a `$extensions` block and a unicode description
 - `tokens/semantic.json` - Light/dark Semantic collection ("All modes") aliasing into Primitives, with `$description` and `$extensions` on a token in both modes
+- `tokens/color-styles.json` - Three paint styles (Color Styles mapping), one with `$extensions`
+- `tokens/text-styles.json` - Three Inter text styles (Text Styles mapping), one with `$extensions`
 
 ### 📁 [multi-brand-themes](./multi-brand-themes/)
 

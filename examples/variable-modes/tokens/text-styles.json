@@ -1,0 +1,35 @@
+{
+  "Heading-Large": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Bold",
+      "fontSize": 32,
+      "lineHeight": { "unit": "PIXELS", "value": 40 },
+      "letterSpacing": { "unit": "PERCENT", "value": -1 }
+    },
+    "$type": "typography",
+    "$description": "Page titles"
+  },
+  "Body": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Regular",
+      "fontSize": 16,
+      "lineHeight": { "unit": "PIXELS", "value": 24 },
+      "letterSpacing": { "unit": "PERCENT", "value": 0 }
+    },
+    "$type": "typography"
+  },
+  "Caption": {
+    "$value": {
+      "fontFamily": "Inter",
+      "fontWeight": "Medium",
+      "fontSize": 12,
+      "lineHeight": { "unit": "AUTO" },
+      "letterSpacing": { "unit": "PERCENT", "value": 2 },
+      "textCase": "UPPER"
+    },
+    "$type": "typography",
+    "$extensions": { "com.example.build": { "cssClass": "caption" } }
+  }
+}
