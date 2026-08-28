@@ -1,0 +1,25 @@
+{
+  "$description": "Primitive scales referenced by the Semantic collection",
+  "gray": {
+    "50": { "$value": "#F9FAFB", "$type": "color" },
+    "100": { "$value": "#F3F4F6", "$type": "color" },
+    "300": { "$value": "#D1D5DB", "$type": "color" },
+    "500": { "$value": "#6B7280", "$type": "color" },
+    "700": { "$value": "#374151", "$type": "color" },
+    "900": { "$value": "#111827", "$type": "color", "$description": "Darkest gray, café-grade contrast ✓" }
+  },
+  "blue": {
+    "100": { "$value": "#DBEAFE", "$type": "color" },
+    "500": {
+      "$value": "#3B82F6",
+      "$type": "color",
+      "$extensions": { "com.example.build": { "cssVariable": "--blue-500" } }
+    },
+    "700": { "$value": "#1D4ED8", "$type": "color" }
+  },
+  "space": {
+    "sm": { "$value": 8, "$type": "number" },
+    "md": { "$value": 16, "$type": "number" },
+    "lg": { "$value": 24, "$type": "number" }
+  }
+}
