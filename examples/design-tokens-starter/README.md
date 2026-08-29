@@ -1,6 +1,6 @@
 # Design Tokens Starter
 
-A complete starter template for the [Design Tokens Workflow](https://docs.gitfig.com/tutorials/design-tokens-workflow) tutorial — expanded with a full base set of token files so you can test every token category GitFig supports.
+A complete starter template for the [Design Tokens Workflow](https://docs.gitfig.com/tutorials/design-tokens-workflow) tutorial, expanded with a full base set of token files so you can test every token category GitFig supports.
 
 ## Files
 
@@ -59,5 +59,5 @@ All tokens use **W3C Design Tokens** format:
 Notes:
 - **Colors** become Figma color variables (8-digit hex like `#0000001A` carries alpha)
 - **Numbers** become float variables (spacing, radius, z-index, durations)
-- **Strings** become string variables (font names, easing curves, shadow recipes — Figma variables don't support shadow values directly)
+- **Strings** become string variables (font names, easing curves, shadow recipes; Figma variables don't support shadow values directly)
 - **Booleans** become boolean variables (useful for feature-flag-driven components)

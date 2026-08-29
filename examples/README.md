@@ -5,10 +5,10 @@ Ready-to-use example files to help you get started with GitFig tutorials.
 ## How to Use
 
 1. Copy the example files to your own GitHub repository
-2. In GitFig's Mapping section, hover a file → **Add Target** → set the Collection Name from the folder's README (each example lists its suggested mappings) → Save, then **Pull**
+2. In GitFig's **Mapping** section, hover a file (or Tab to it) and click **Add target**. Choose the target type and, for Variables, the Collection Name from the folder's README (each example lists its suggested mappings). Click **Add mapping**, then **Pull**
 3. Follow the corresponding tutorial in the [GitFig Documentation](https://docs.gitfig.com)
 
-Or fork this repo and use it directly with GitFig!
+Or fork this repo and use it directly with GitFig.
 
 ---
 
@@ -36,8 +36,8 @@ A complete starter template with an expanded base set of token files:
 A two-collection setup for mode-keyed sync (free for everyone during the v1.3 preview):
 - `tokens/primitives.json` - Single-mode Primitives collection ("First mode only"), with a `$extensions` block and a unicode description
 - `tokens/semantic.json` - Light/dark Semantic collection ("All modes") aliasing into Primitives, with `$description` and `$extensions` on a token in both modes
-- `tokens/color-styles.json` - Three color styles (Color Styles mapping), one with `$extensions`
-- `tokens/text-styles.json` - Three Inter text styles (Text Styles mapping), one with `$extensions`
+- `tokens/color-styles.json` - Three color styles (Color styles target), one with `$extensions`
+- `tokens/text-styles.json` - Three Inter text styles (Text styles target), one with `$extensions`
 
 ### 📁 [multi-brand-themes](./multi-brand-themes/)
 
@@ -68,4 +68,4 @@ git clone https://github.com/ds1/gitfig-community.git
 # Or copy specific examples to your repo
 ```
 
-Then connect to it with GitFig in Figma!
+Then connect to it with GitFig in Figma.
