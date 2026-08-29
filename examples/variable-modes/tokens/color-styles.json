@@ -2,7 +2,7 @@
   "Brand-Primary": {
     "$value": "#3B82F6",
     "$type": "color",
-    "$description": "Primary brand paint style"
+    "$description": "Primary brand color style"
   },
   "Brand-Primary-Hover": {
     "$value": "#1D4ED8",

@@ -43,7 +43,7 @@ Styles have no modes, so they sync as flat files next to the mode-keyed one. `co
 
 Use this to confirm your setup end to end.
 
-1. Pull all four files (`primitives.json` before `semantic.json`). Figma has a **Primitives** collection (12 variables, 1 mode) and a **Semantic** collection with exactly two modes, `light` and `dark`, holding 8 variables each. `Semantic/color/text/primary` shows as an alias to `Primitives/gray/900`, and `Primitives/gray/900` carries the description `Darkest gray, café-grade contrast ✓`. The Styles panel shows three paint styles (`Brand-Primary`, `Brand-Primary-Hover`, `Overlay-Scrim`) and three text styles (`Heading-Large`, `Body`, `Caption`).
+1. Pull all four files (`primitives.json` before `semantic.json`). Figma has a **Primitives** collection (12 variables, 1 mode) and a **Semantic** collection with exactly two modes, `light` and `dark`, holding 8 variables each. `Semantic/color/text/primary` shows as an alias to `Primitives/gray/900`, and `Primitives/gray/900` carries the description `Darkest gray, café-grade contrast ✓`. The Styles panel shows three color styles (`Brand-Primary`, `Brand-Primary-Hover`, `Overlay-Scrim`) and three text styles (`Heading-Large`, `Body`, `Caption`).
 2. Push with no edits. GitFig reports no changes, and `$extensions` is still present in both files on GitHub.
 3. Change one `dark` value in Figma and push. The staging list shows a single change with a `dark` badge; the commit touches only `semantic.json`, only inside `"dark"`.
 4. Delete both collections in Figma and pull again. Both are recreated with their modes, aliases re-bound, and descriptions intact.
