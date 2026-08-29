@@ -10,7 +10,7 @@ A two-collection setup showing mode-keyed sync: a single-mode **Primitives** col
 tokens/
 ├── primitives.json    # Single-mode collection: map as Variables, "First mode only"
 ├── semantic.json      # Mode-keyed (light/dark): map as Variables, "All modes"
-├── color-styles.json  # Paint styles: map as Color Styles
+├── color-styles.json  # Color styles: map as Color Styles
 └── text-styles.json   # Text styles (Inter): map as Text Styles
 ```
 
