@@ -8,11 +8,11 @@ Both tools put tokens in Git, but they start from opposite ends.
 
 **Tokens Studio** is a token editor that lives in a plugin. You author tokens in its own store and format (token sets, themes, math and composite tokens), then apply them to Figma variables and styles through an export step. That model is powerful for token-first teams, but it means your design system has two representations, the plugin's and Figma's, and you manage the mapping between them.
 
-**GitFig** treats Figma's native Variables and Styles as the source of truth inside Figma. You author tokens in Figma's own UI, the same Variables panel your components already consume, and GitFig adds the Git layer around them. It detects your edits, select the changes you want to commit, write a commit message, and push.
+**GitFig** treats Figma's native Variables and Styles as the source of truth inside Figma, the same Variables panel your components already consume, and adds the Git layer around them. It detects your edits like a working tree. Select the changes you want to commit, write a commit message, and push. Engineers can also edit the token files directly in the repo, and those commits flow back into Figma through Pull.
 
 | | GitFig | Tokens Studio |
 |---|---|---|
-| **Where tokens are authored** | Figma's native Variables and Styles UI | The plugin's own token editor |
+| **Where tokens are edited** | Figma's native Variables and Styles UI, or the token files in your repo (both sync) | The plugin's own token editor |
 | **Source of truth in Figma** | Native Variables plus Color, Text, and Effect Styles | The plugin's token store, applied to Figma via export |
 | **File format in Git** | Writes W3C Design Tokens; reads W3C, Style Dictionary, Tokens Studio, and custom JSON | Tokens Studio JSON, with a W3C DTCG option |
 | **Commit workflow** | Per-change staging with checkboxes, commit messages, one-click push, undoable pulls | Push and pull of token files |
@@ -30,7 +30,7 @@ Already on Tokens Studio? GitFig reads its format directly, so migration is one 
 
 Component structure (variants, component properties, visibility bindings, interactive states) lives in Figma components. Design token tools, GitFig included, version tokens, not components. In future releases, GitFig may support component versioning and integrations.
 
-With GitFig, your components consume Variables natively, i.e., bind a variable to a fill, a mode to a theme or state, a boolean variable to a visibility property. GitFig versions the variables and styles underneath, so component behavior stays a pure Figma concern and keeps working with every Figma feature, current and future. There is a single representation of your system because GitFig syncs Figma with GitHub. Either in the external code repo or in Figma, renaming a variable, adding a mode, or rebinding a component property, changes appear in GitFig's change list as ready to commit or pull.
+With GitFig, your components consume Variables natively, binding a variable to a fill, a mode to a theme or state, or a boolean variable to a visibility property. GitFig versions the variables and styles underneath, so component behavior stays a pure Figma concern and keeps working with every Figma feature, current and future. Tokens can be edited on either side. Changes made in Figma (renaming a variable, adding a mode, changing a value) appear in GitFig's change list, ready to commit. Changes engineers make directly to the token files in the repo surface on the Pull button as new commits, and one undoable pull applies them to your Figma Variables and Styles.
 
 If versioning component structure itself would help your team, open a [feature request](https://github.com/ds1/gitfig-community/discussions/categories/feature-requests): requests here directly shape the roadmap.
 
