@@ -23,6 +23,10 @@ The [`examples/`](./examples/) folder has ready-to-use token files for getting s
 
 Each folder's README explains what the files contain and how to map them in GitFig. Copy the files into your repo (or fork this one) and Pull.
 
+## How GitFig Compares
+
+Coming from Tokens Studio, the Figma Variables REST API, or hand-maintained JSON? See [COMPARISON.md](./COMPARISON.md) for an honest side-by-side, including where each approach fits best.
+
 ## Resources
 
 - **Website:** [gitfig.com](https://gitfig.com)
