@@ -37,4 +37,8 @@ Coming from Tokens Studio, the Figma Variables REST API, or hand-maintained JSON
 - **Documentation:** [docs.gitfig.com](https://docs.gitfig.com)
 - **Figma Community:** [GitFig Plugin](https://www.figma.com/community/plugin/1584467274034932618)
 
+## License
+
+The contents of this repository are licensed under [CC BY 4.0](./LICENSE). Reuse and adapt freely, including commercially, as long as you keep the attribution: **Dan Schmitz, with Claude (Anthropic)**, with a link back to this repository and a note of any changes.
+
 Version your design system with Git workflows: branches, pull requests, and full history.

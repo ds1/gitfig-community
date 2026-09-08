@@ -70,6 +70,6 @@ Every document here was reconciled from a prior location. The table records wher
 
 The source repository's own README still links to wiki pages under slugs that never existed, and its wiki still carries the January pages. Those should become pointers to this folder; see [issue #30](https://github.com/ds1/gitfig-community/issues/30).
 
-## License
+## License and attribution
 
-The documents that came from the design-token-context-model repository were published there under the MIT License, and they remain under MIT here. The three September 2026 papers and the appendix documents written for this folder are released under the same terms.
+Everything in this folder is licensed under the [Creative Commons Attribution 4.0 International License](../LICENSE) (CC BY 4.0). You may quote, share, and adapt it for any purpose, including commercially, on one condition: keep the attribution. Credit the work to **Dan Schmitz, with Claude (Anthropic)**, link to this repository, and indicate any changes you made. The documents that came from the design-token-context-model repository were previously published there under MIT; this folder is now their canonical copy and carries the CC BY 4.0 terms.
