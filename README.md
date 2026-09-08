@@ -23,6 +23,10 @@ The [`examples/`](./examples/) folder has ready-to-use token files for getting s
 
 Each folder's README explains what the files contain and how to map them in GitFig. Copy the files into your repo (or fork this one) and Pull.
 
+## The Single Source of Taste
+
+The [`single-source-of-taste/`](./single-source-of-taste/) folder is the home of the theory behind GitFig: design tokens as resolution policies over a multidimensional context space, the Design Token Context Ontology (12 categories, 93 dimensions), and the Single Source of Taste, a design-owned authority for the aesthetic judgments no test can certify. Start with the [folder README](./single-source-of-taste/README.md) for the argument in five steps and a reading order, then the [Glossary](./single-source-of-taste/GLOSSARY.md). Pages 07 and 08 describe what a Figma-to-Git tool would need to carry taste, not just values, through the round-trip.
+
 ## How GitFig Compares
 
 Coming from Tokens Studio, the Figma Variables REST API, or hand-maintained JSON? See [COMPARISON.md](./COMPARISON.md) for a side-by-side comparison, including where each approach fits best.
@@ -32,5 +36,9 @@ Coming from Tokens Studio, the Figma Variables REST API, or hand-maintained JSON
 - **Website:** [gitfig.com](https://gitfig.com)
 - **Documentation:** [docs.gitfig.com](https://docs.gitfig.com)
 - **Figma Community:** [GitFig Plugin](https://www.figma.com/community/plugin/1584467274034932618)
+
+## License
+
+The contents of this repository are licensed under [CC BY 4.0](./LICENSE). Reuse and adapt freely, including commercially, as long as you keep the attribution: **Dan Schmitz, with Claude (Anthropic)**, with a link back to this repository and a note of any changes.
 
 Version your design system with Git workflows: branches, pull requests, and full history.
